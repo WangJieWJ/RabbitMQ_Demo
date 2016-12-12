@@ -1,7 +1,8 @@
 # RabbitMQ_Demo
 本地访问地址:http://localhost:15672
 
-![RabbitMQ系统架构图](image\系统架构图.jpg)
+![RabbitMQ系统架构图](image/系统架构图.jpg)
+
 |RabbitMQ账号|可远程登陆 |
 |------|-------|
 |用户名|WangJie|
