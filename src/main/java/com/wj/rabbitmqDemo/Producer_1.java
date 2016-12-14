@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * Created by wangjie on 2016/12/11 0011.
  */
-public class RabbitMQ_Test {
+public class Producer_1 {
 
     //队列名称
     private final static String QUEUE_NAME="hello";
@@ -20,7 +20,7 @@ public class RabbitMQ_Test {
          */
         ConnectionFactory factory=new ConnectionFactory();
         //设置RabbitMQ所在的主机ip或者主机名
-        factory.setHost("10.1.96.67");
+        factory.setHost("192.168.1.129");
         factory.setUsername("WangJie");
         factory.setVirtualHost("/");
         factory.setPassword("wangjie123");
